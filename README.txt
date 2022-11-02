@@ -7,10 +7,14 @@
 2.1 辞書ファイル("任意のファイル名.csv")を作成する
 2.2 上記ファイルに単語情報をカンマ区切りで入力して保存
 2.3 下記コマンドを実行
-    python dictionary.py --dictfile "任意のファイル名.csv"
+    python dictionary.py --dictfile "任意のファイル名.csv" --showid "表示する単語id"
+
+    実行例：
+        python dictionary.py --dictfile dictionary-data.csv --showid 1
 
 期待する実行結果
 単語情報として"任意のファイル名.csv"の内容がコンソール画面に出力される
+その際、各単語にidを付与した状態で表示される
 
 
 3.辞書ファイルのフォーマット
